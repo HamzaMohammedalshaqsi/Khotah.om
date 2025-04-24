@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+  font-family: "Zain", sans-serif;
+  font-weight: 40px; 
+  font-size: 25px;
+}
+
+.Bungee{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 90px;
+    word-spacing: 20px;
+}
+
+.read-more {
+  display: none; /* default: hidden */
+  margin-top: 10px;
+  color: #fff;
+  background-color: #9A7B47;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card:hover .read-more {
+  display: inline-block;
+}
+
+.read-more:hover {
+  color: rgb(0, 0, 0);
+}
